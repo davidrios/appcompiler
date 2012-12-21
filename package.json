@@ -1,0 +1,22 @@
+{   "name": "appcompiler"
+  , "version": "0.0.1"
+  , "description": "App Compiler"
+  , "keywords": []
+  , "author": "David Rios <david.rios.gomes@gmail.com>"
+  , "repository": {
+      "type": "git",
+      "url": "https://github.com/davidrios/appcompiler.git",
+      "web": "https://github.com/davidrios/appcompiler"
+  }
+  , "dependencies": { 
+      "mime"          : ">= 1.2.4"
+    , "coffee-script" : ">= 1.1.3"
+    , "jade"          : ">= 0.17.0"
+    , "cson"          : ">= 0.2.0"
+    , "stylus"        : ">= 0.19.3"
+    , "nib"           : ">= 0.3.0"
+    , "markdown-js"   : ">= 0.0.3"
+  }
+  , "main": "index"
+  , "engines": { "node": ">= 0.4.1 < 0.7.0" }
+}
